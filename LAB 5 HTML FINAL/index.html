@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Project Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <img src="sample-logo.png" alt="Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <input type="text" class="search-bar" placeholder="Search...">
+        </div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h1>HTML, CSS, and JS Final Project</h1>
+        </section>
+
+        <section class="text-photo-section">
+            <div class="text-section">
+                <h2>Title for Left Side</h2>
+                <p>This is where you can include your text description or information about the project.</p>
+            </div>
+            <div class="photo-section">
+                <img src="img1.jpg" alt="Description of Photo" class="photo">
+            </div>
+        </section>
+
+        <section class="three-photos-section">
+            <img src="img2.jpg" alt="Description of Photo" class="three-photo">
+            <img src="img3.jpg" alt="Description of Photo" class="three-photo">
+            <img src="img4.jpg" alt="Description of Photo" class="three-photo">
+        </section>
+
+        <section class="form-section">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="option">Pick One:</label>
+                <select id="option" name="option">
+                    <option value="true">True</option>
+                    <option value="false">False</option>
+                </select>
+
+                <label for="message">Leave a Message:</label>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Your message..."></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <img src="sample-logo.png" alt="footer logo">
+            <nav>
+                <ul>
+                    <h4 class="title">Title</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non possimus ea nemo labore, aspernatur quia. Molestias fuga quas, voluptatum deserunt, unde illo ex fugit sapiente mollitia minima porro recusandae maxime?</p>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+</body>
+</html>
